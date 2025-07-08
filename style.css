@@ -1,0 +1,72 @@
+/* Background */
+.green-dark-bg {
+  background-color: #0f0f0f;
+}
+
+/* Card */
+.green-card {
+  background-color: #1a1a1a;
+  border: 1px solid #00ff99;
+  border-radius: 16px;
+}
+
+/* Text */
+.green-text {
+  color: #a8ff60;
+}
+
+/* Input and Select */
+.green-input {
+  background-color: #111 !important;
+  color: #a8ff60 !important;
+  border: 1px solid #444;
+}
+
+.green-input:focus {
+  border-color: #00ff99;
+  box-shadow: 0 0 5px #00ff99;
+}
+
+/* Flag Image */
+.flag-img {
+  width: 40px;
+  height: auto;
+  border-radius: 6px;
+}
+
+/* Hover Effects */
+.green-hover:hover {
+  box-shadow: 0 0 12px #00ff99;
+  transform: scale(1.02);
+  transition: all 0.3s ease-in-out;
+}
+
+/* Convert Button - green theme without neon */
+.convert {
+  background-color: #00ff99;
+  color: #000;
+  font-weight: bold;
+  border: none;
+  transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.convert:hover {
+  background-color: #00cc77;
+  transform: scale(1.05);
+  box-shadow: none;
+}
+
+/* Conversion Message Box */
+.msg {
+  margin-top: 20px;
+  padding: 12px 16px;
+  background-color: #111;
+  color: #a8ff60;
+  border-left: 4px solid #00ff99;
+  border-radius: 8px;
+  font-size: 1.1rem;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
