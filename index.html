@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>        
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Currency Converter</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet" />
+    <link href="style.css" rel="stylesheet" />
+</head>
+<body class="green-dark-bg text-light">
+    <div class="container py-5">
+        <div class="green-card p-4 mx-auto shadow-lg" style="max-width: 500px;">
+        <h2 class="text-center mb-4 green-text">
+            <i class="bi bi-currency-exchange me-2"></i>Currency Converter
+        </h2>
+
+        <form>
+            <!-- Amount Input -->
+            <div class="amount mb-4">
+            <p class="green-text fw-semibold">Enter amount</p>
+            <input value="100" type="text" class="form-control form-control-lg green-input" />
+            </div>
+
+            <!-- Currency Dropdowns -->
+            <div class="dropdown row g-3">
+            <!-- FROM -->
+                <div class="from col-md-6">
+                    <p class="green-text fw-semibold">From</p>
+                    <div class="select-container d-flex align-items-center p-2 border border-success rounded green-hover">
+                        <img src="https://flagsapi.com/US/flat/64.png" class="flag-img me-2" />
+                        <select name="from" class="form-select green-input border-0">
+                            <option value="USD" selected>USD</option>
+                            <option value="INR">INR</option>
+                            <option value="EUR">EUR</option>
+                            <option value="AUD">AUD</option>
+                        </select>
+                    </div>
+                </div>
+                <!-- TO -->
+                <div class="to col-md-6">
+                <p class="green-text fw-semibold">To</p>
+                <div class="select-container d-flex align-items-center p-2 border border-success rounded green-hover">
+                    <img src="https://flagsapi.com/IN/flat/64.png" class="flag-img me-2" />
+                    <select name="to" class="form-select green-input border-0">
+                    <option value="USD">USD</option>
+                    <option value="INR" selected>INR</option>
+                    <option value="EUR">EUR</option>
+                    <option value="AUD">AUD</option>
+                    </select>
+                </div>
+                </div>
+
+            </div>
+
+            <!-- Convert Button -->
+            <div class="d-grid mt-4">
+                <button type="submit" class="convert btn btn-lg">
+                    <i class="bi bi-arrow-left-right me-1"></i>Convert
+                </button>
+            </div>
+
+            <!-- Conversion Message -->
+            <div class="msg mt-4">
+                <i class="bi bi-currency-exchange"></i>
+                <span>1 USD = 85 INR</span>
+            </div>
+        </form>
+        </div>
+    </div>
+    <script src="codes.js"></script>
+    <script src="app.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
