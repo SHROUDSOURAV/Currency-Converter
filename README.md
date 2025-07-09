@@ -12,8 +12,7 @@ A simple and elegant **Currency Converter Web App** built using **HTML**, **CSS*
 - 🌐 **Dynamic Flag Icons** that update based on selected currencies.
 - 🎯 **Input Validation** for accurate and user-friendly interactions.
 - 🎨 **Modern Neon Dark UI** styled using custom CSS and Bootstrap.
-- 📱 **Responsive Design** that works seamlessly on desktops, tablets, and mobile devices.
-- 🧠 **No API Used** — fully functional without external dependencies.
+- 📱 **Responsive Design** that works seamlessly on desktops.
 
 ---
 
